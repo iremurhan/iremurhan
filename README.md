@@ -31,7 +31,7 @@ Evaluation covers in-domain retrieval, cross-dataset transfer, and compositional
 
 ## Tools
 
-PyTorch, Hugging Face (Transformers, PEFT), OpenCLIP, scikit-learn, Weights & Biases · Python, Docker, SLURM, Git, Linux
+PyTorch, Hugging Face (Transformers, PEFT), scikit-learn, Weights & Biases · Python, Docker, SLURM, Git, Linux
 
 ## Contact
 
