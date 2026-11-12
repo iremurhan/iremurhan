@@ -8,7 +8,7 @@ My research looks at how pretrained vision–language models can be adapted to n
 
 ## Current research code
 
-**[lightweight_clip](https://github.com/ALLab-Boun/lightweight_clip)**: controlled fine-tuning interventions for CLIP image–text retrieval on Flickr30k and MS-COCO. A single configurable pipeline compares the following under matched settings:
+**[clip-adaptation-limits](https://github.com/ALLab-Boun/clip-adaptation-limits)**: controlled fine-tuning interventions for CLIP image–text retrieval on Flickr30k and MS-COCO. A single configurable pipeline compares the following under matched settings:
 
 - training objectives (InfoNCE, SigLIP) and partial unfreezing of the vision encoder
 - intra-modal regularization with augmented image views and caption rewrites
@@ -21,7 +21,7 @@ Evaluation covers in-domain retrieval, cross-dataset transfer, and compositional
 
 *Cross-Modal Retrieval: Interventions, Diagnostics, and Representational Limits*. Boğaziçi University, defended June 2026.
 
-[clip-retrieval-lab](https://github.com/iremurhan/clip-retrieval-lab) contains the thesis code in its final state (tag `thesis-final`). It is archived and no longer maintained. Beyond the fine-tuning interventions, the thesis uses ViT-B/16 and ViT-L/14-336 backbones and adds diagnostics: MMVP-VLM, missing-positive analysis, alignment and uniformity of the embedding space, and cross-dataset transfer. For current work, see `lightweight_clip` above.
+[clip-retrieval-lab](https://github.com/iremurhan/clip-retrieval-lab) contains the thesis code in its final state (tag `thesis-final`). It is archived and no longer maintained. Beyond the fine-tuning interventions, the thesis uses ViT-B/16 and ViT-L/14-336 backbones and adds diagnostics: MMVP-VLM, missing-positive analysis, alignment and uniformity of the embedding space, and cross-dataset transfer. For current work, see `clip-adaptation-limits` above.
 
 ## Selected projects
 
